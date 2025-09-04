@@ -22,7 +22,7 @@ Reto-de-Automatizacion-QA-BackEnd/
 
 ### Listar usuarios (GET /usuarios) → 200
 ```
-mvn test -Dkarate.options="--tags @get_usuarios
+mvn test -Dkarate.options="--tags @get_usuarios"
 ```
 
 ### Crear usuario (POST /usuarios) → 201 + intento de duplicado → 400
