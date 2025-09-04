@@ -1,5 +1,23 @@
 # Reto de Automatizacion QA BackEnd
 
+📁 Estructura del proyecto
+```
+Reto-de-Automatizacion-QA-BackEnd/
+├── pom.xml
+└── src
+    └── test
+        ├── java
+        │   ├── karate-config.js
+        │   ├── bdd
+        │   │   └── serverest
+        │   │       ├── serverest.feature
+        │   │       └── helpers
+        │   │           └── helper.js
+        │   └── requests
+        │       └── usertemplate.json
+        └── logback-test.xml
+```
+
 ▶️ Cómo ejecutar
 
 ### Listar usuarios (GET /usuarios) → 200
