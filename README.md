@@ -59,7 +59,7 @@ La estrategia se centra en validar el **CRUD de usuarios** de la API [ServeRest]
   - `DELETE /usuarios/{id}` → eliminar un usuario del sistema.
 
 - **Casos negativos:**  
-  Se implementaron validaciones de error al intentar registrar usuarios con **email duplicado**, obtener usuarios con **ID inexistente** o actualizar con **payload inválido**.
+  Se implementaron validaciones de error al intentar registrar usuarios con **email duplicado** y obtener usuarios con **ID inexistente** 
 
 - **Validaciones mínimas:**  
   Se validan principalmente **códigos de estado HTTP** (200/201/400) y mensajes de respuesta clave para mantener la suite simple y enfocada en los criterios de aceptación.
